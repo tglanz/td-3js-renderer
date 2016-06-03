@@ -5,7 +5,7 @@
 */
 
 import * as config from '../config'
-import { checkArgs } from '../utils/checkArgs'
+import { checkArgs } from '../utils/argumentsValidator'
 import { create } from 'axios'
 
 const instance = create({
